@@ -1,0 +1,257 @@
+/*user*/
+.cafedercho{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    right: -20rem;
+    top: -1.6rem;
+}
+
+.cafeizquierda{
+position: absolute;
+width: 10rem;
+height: 15rem;
+left: 0rem;
+top: 60rem;
+}
+
+.blue{
+position: absolute;
+width: 18rem;
+height: 30rem;
+left: -5rem;
+top: -1rem;
+}
+
+.caramel{
+    position: absolute;
+width: 18rem;
+height: 20rem;
+right: -20rem;
+top: 60rem;
+z-index: 1;
+}
+
+
+
+.caja-padre{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 150px;
+    top: 250px;
+    z-index: 1;
+    background:var(--color2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    
+}
+
+
+.caja-texto{
+    position: absolute;
+width: 350px;
+height: 300px;
+left: 50px;
+top: 50px;
+background: var(--color3);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 23px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/*ANTERIOR*/
+
+.primer-bt{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 40px;
+    top:  360px;
+    background: var(--color4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.primer-bt h1{
+    position: absolute;
+    left: 50px;
+    top: -1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 63px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+.primer-bt:hover {
+    color: white;
+    background-color: var(--color2);}
+
+
+/*SIGUIENTE*/
+.segundo-bt{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    right: 45px;
+    top:  360px;
+    background: var(--color4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;}
+
+
+.segundo-bt h1{
+ position: absolute;
+    left: 50px;
+    top: -1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 63px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+.segundo-bt:hover {
+    color: white;
+    background-color: var(--color2);}
+
+
+/*ver*/
+#bt_user {
+    z-index: 1;
+    width: 180px;
+    height: 30px;
+    right: 150px;
+    top: 400px;
+    background-color: var(--color4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-size: 15px;
+    color: #fafdfd;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#bt_user:hover {
+    background-color: var(--color2);
+}
+
+
+
+/*info*/
+#root {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    right: -160px;
+    top: 750px;
+    z-index: 1;
+    background: var(--color4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    padding-top: 40px;
+    padding-left: 50px;
+
+ 
+    
+}
+
+#root h1{
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: justify;
+
+    
+}
+
+/*header*/
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    left: -1rem;
+    top: -6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.carpet img {
+    position: absolute;
+    width: 50px;
+    height: 130px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.bajaopacidad{
+    position: absolute;
+    width: 300px;
+    display: none;  
+ }
+ 
+ .activaopacidad{
+     display: flex;
+ }
+ 
+ 
+ .nav_link{
+     color: white;
+     display: block;
+     padding: 15px 0;
+     text-decoration: none;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 20px;
+ }
+ .nav_link:hover{
+     animation-duration: 1s;
+     border-radius: 16px;
+     background-color: var(--color4);}
+ 
+ 
+ 
+ .list{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     border-radius: 0 16px 0 16px;
+     background-color: var(--color2);
+     
+ }
+ .list_item{
+     list-style: none;
+     width: 100%;
+     text-align: center;
+ 
+ }
+ 
+ /*clases de java*/
+ 
+ .body_move{
+     margin-left: 250px;
+ }
+ 
+ .menu_side_move{
+    width: 250px;
+ }
+ 
+ 
+ 
+ 
